@@ -764,12 +764,6 @@ p i:hover {
 	#main-logo {
 		padding-top: 12%;
 	}
-	.topmain {
-	width: 100%;
-	height: 100%;
-	background: url('../img/main-mobile.jpg') no-repeat center;
-	background-size: cover;
-	}
 }
 
 @media only screen and (max-width : 1200px) {
@@ -784,6 +778,12 @@ p i:hover {
 @media only screen and (max-width: 768px) {
 	.space900{
 		height: 1700px;
+	}
+	.topmain {
+	width: 100%;
+	height: 750px;
+	background: url('../img/main-mobile.jpg') no-repeat center;
+	background-size: cover;
 	}
 	.container {
 		width: 100%;
@@ -822,7 +822,7 @@ p i:hover {
 	}
 	.topmain {
 	width: 100%;
-	height: 700px;
+	height: 750px;
 	background: url('../img/main-mobile.jpg') no-repeat center;
 	background-size: cover;
 	}
