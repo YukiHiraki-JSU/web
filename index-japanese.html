@@ -38,6 +38,8 @@
 	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-144x144.png" sizes="144x144">
 	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-152x152.png" sizes="152x152">
 	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-180x180.png" sizes="180x180">
+	<!-- Cookies permission -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
   </head>
   <body>
 
@@ -74,7 +76,7 @@
   <div class="topmain">
     <div class="container">
       <div class="maintitle">
-        <div class="" align="right">EN / <a href="index-japanese.html">JP</a></div>
+        <div class="" align="right">JP / <a href="index.html">EN</a></div>
         <a class="mlogo" id="#main-logo" align="center"><img src="img/logo2.png"></a><br><br><br>
         <h1>電力不安定地域に持続的かつ安定的な電力を。</h1>
         <h2-1>電力不安定地域に提供される再生可能エネルギーの運用を効率化し、<br>多くの人々に安価で持続的、かつ安定的な電力供給を支えます。</h2-1>
@@ -91,7 +93,7 @@
          <a href="#news">News</a>
          </div>
          <div class="col-custom-five">
-         <a href="#leadership">Leaadership</a>
+         <a href="#leadership">Leadership</a>
          </div>
          <div class="col-custom-five">
          <a href="#contact">Contact</a>
@@ -127,7 +129,7 @@
          <div class="col-sm-4">
            <img src="img/ai.png">
            <h2>プロダクト/サービス</h2>
-           <p><br>独自の人工知能モデルを用いた監視・解析・予測の計算をし、次世代メンテナンスの予知保全(Predictive maintenance)運用や最適な販売・マーケティング運用を実現させます。具体的には、基礎データの電力やPAYGO・CRMデータと、コントローラから取得できない独自に収集したデータ（気象データ等）や100以上の環境変数（人口やパネル傾斜角度等）を独自のアルゴリズムで組み合わせて計算し、
+           <p><br>独自の人工知能モデルを用いた監視・解析・予測をし、次世代メンテナンスの予知保全(Predictive maintenance)運用や最適な販売・マーケティング計画を実現させます。具体的には、基礎データの電力やPAYGO・CRMデータと、コントローラから取得できない独自に収集したデータ（気象データ等）や100以上の環境変数（人口やパネル傾斜角度等）を独自のアルゴリズムで組み合わせて計算し、
            パネルの最適な発電条件や販売計画、不必要な部品交換費用の削減・メンテナンス人員の負担削減・機器停止回避による電力効率化などのO&M運用に対して高度な人工知能ソリューションを提供します。</p>
          </div>        
       </div>
@@ -350,7 +352,7 @@
         <div class="col-md-6 wow fadeInUp">
            <div class="col-md-1"></div>
            <div class="col-md-9">
-             <h2><font color="#ffffff">Let's checking our latest news information!</font></h2>
+             <h2><font color="#ffffff">Our latest news information!</font></h2>
              <div class="space40"></div>
              <div class="title" align="center">
                <a href="https://yukihiraki-jsu.github.io/news/"><img src="img/news.png" width="80" height="80"></a>
@@ -364,7 +366,7 @@
         <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
            <div class="col-md-1"></div>
            <div class="col-md-9">
-             <h2><font color="#ffffff">Let's checking the industry information!</font></h2>
+             <h2><font color="#ffffff">The industry information!</font></h2>
              <div class="space40"></div>
              <div class="title" align="center">
                <a href="https://yukihiraki-jsu.github.io/news/"><img src="img/blog.png" width="80" height="80"></a>
@@ -486,9 +488,6 @@
       </div>
   
       <div class="space30"></div>
-      <hr>
-      <p class="lastline">&copy;2020 EnerScale, All Rights Reserved. <a href="privacy.html">Privacy Policy</a></p><br>
-      <p class="lastline">Icon made by <a href="https://www.freepik.com/">Freepik</a> from www.flaticon.com</p>
     </div>
   </div>
 
@@ -585,6 +584,26 @@
          ga('create', 'UA-', 'auto');
          ga('send', 'pageview');
     </script>
-
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#efefef",
+      "text": "#404040"
+    },
+    "button": {
+      "background": "#8ec760",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "href": "https://yukihiraki-jsu.github.io/web/privacy.html"
+  }
+});
+</script>
+</body>
+  <hr>
+      <p class="lastline">&copy;2020 EnerScale, All Rights Reserved.   <a href="privacy.html">Privacy Policy</a>.   <a href="termsofuse.html">Terms of Use</a>.</p><br>
+      <p class="lastline">Icon made by <a href="https://www.freepik.com/">Freepik</a> from www.flaticon.com</p>
 </html>

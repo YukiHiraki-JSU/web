@@ -38,6 +38,8 @@
 	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-144x144.png" sizes="144x144">
 	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-152x152.png" sizes="152x152">
 	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-180x180.png" sizes="180x180">
+	<!-- Cookies permission -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
   </head>
   <body>
 
@@ -91,7 +93,7 @@
          <a href="#news">News</a>
          </div>
          <div class="col-custom-five">
-         <a href="#leadership">Leaadership</a>
+         <a href="#leadership">Leadership</a>
          </div>
          <div class="col-custom-five">
          <a href="#contact">Contact</a>
@@ -350,7 +352,7 @@
         <div class="col-md-6 wow fadeInUp">
            <div class="col-md-1"></div>
            <div class="col-md-9">
-             <h2><font color="#ffffff">Let's checking our latest news information!</font></h2>
+             <h2><font color="#ffffff">Our latest news information!</font></h2>
              <div class="space40"></div>
              <div class="title" align="center">
                <a href="https://yukihiraki-jsu.github.io/news/"><img src="img/news.png" width="80" height="80"></a>
@@ -364,7 +366,7 @@
         <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
            <div class="col-md-1"></div>
            <div class="col-md-9">
-             <h2><font color="#ffffff">Let's checking the industry information!</font></h2>
+             <h2><font color="#ffffff">The industry information!</font></h2>
              <div class="space40"></div>
              <div class="title" align="center">
                <a href="https://yukihiraki-jsu.github.io/news/"><img src="img/blog.png" width="80" height="80"></a>
@@ -486,9 +488,6 @@
       </div>
   
       <div class="space30"></div>
-      <hr>
-      <p class="lastline">&copy;2020 EnerScale, All Rights Reserved. <a href="privacy.html">Privacy Policy</a></p><br>
-      <p class="lastline">Icon made by <a href="https://www.freepik.com/">Freepik</a> from www.flaticon.com</p>
     </div>
   </div>
 
@@ -585,6 +584,26 @@
          ga('create', 'UA-', 'auto');
          ga('send', 'pageview');
     </script>
-
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#efefef",
+      "text": "#404040"
+    },
+    "button": {
+      "background": "#8ec760",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "href": "https://yukihiraki-jsu.github.io/web/privacy.html"
+  }
+});
+</script>
+</body>
+  <hr>
+      <p class="lastline">&copy;2020 EnerScale, All Rights Reserved.   <a href="privacy.html">Privacy Policy</a>.   <a href="termsofuse.html">Terms of Use</a>.</p><br>
+      <p class="lastline">Icon made by <a href="https://www.freepik.com/">Freepik</a> from www.flaticon.com</p>
 </html>
