@@ -575,6 +575,31 @@ width: 100%;
 height: 100%;
 }
 
+.mission {
+		font-size: 1.5em;
+	}
+
+	#mission {
+		padding: 150px 30px 150px 30px;
+		background: url("../img/mission.jpg") no-repeat center;
+		background-size: cover;
+		height: 120px;
+	}
+
+	#vision {
+		padding: 150px 40px 150px 40px;
+		background: url("../img/vision.jpg") no-repeat center;
+		background-size: cover;
+		height: 120px;
+	}
+	
+	#value {
+		padding: 150px 30px 150px 30px;
+		background: url("../img/value.jpg") no-repeat center;
+		background-size: cover;
+		height: 120px;
+	}
+	
 /* Navbar
 ================================ */
 .navbar {
@@ -813,6 +838,31 @@ p i:hover {
 			),
 		url("img/case2.jpg") no-repeat center;
 		height: 450px;
+	}
+	.mission {
+		font-size: 1.5em;
+		width: 100%;
+	}
+	#mission {
+		padding: 150px 30px 150px 30px;
+		background: url("../img/mission-mobile.jpg") no-repeat center;
+		background-size: cover;
+		width: 100%;
+		height: 120px;
+	}
+	#vision {
+		padding: 150px 40px 150px 40px;
+		background: url("../img/vision-mobile.jpg") no-repeat center;
+		background-size: cover;
+		width: 100%;
+		height: 120px;
+	}
+	#value {
+		padding: 150px 30px 150px 30px;
+		background: url("../img/value-mobile.jpg") no-repeat center;
+		background-size: cover;
+		width: 100%;
+		height: 120px;
 	}
 }
 
