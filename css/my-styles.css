@@ -580,24 +580,24 @@ height: 100%;
 	}
 
 	#mission {
-		padding: 150px 30px 150px 30px;
+		padding: 100px 30px 100px 30px;
 		background: url("../img/mission.jpg") no-repeat center;
 		background-size: cover;
-		height: 120px;
+		height: 230px;
 	}
 
 	#vision {
-		padding: 150px 40px 150px 40px;
+		padding: 100px 40px 100px 40px;
 		background: url("../img/vision.jpg") no-repeat center;
 		background-size: cover;
-		height: 120px;
+		height: 230px;
 	}
 	
 	#value {
-		padding: 150px 30px 150px 30px;
+		padding: 100px 30px 100px 30px;
 		background: url("../img/value.jpg") no-repeat center;
 		background-size: cover;
-		height: 120px;
+		height: 230px;
 	}
 	
 /* Navbar
