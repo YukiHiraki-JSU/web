@@ -67,12 +67,28 @@ h3 {
 	margin-bottom: -10px;
 }
 
+h3-1 {
+	text-align: left;
+	font-size: 1.4em;
+	color: #3a3d41;
+	font-weight: bold;
+	margin-bottom: -10px;
+}
+
 h4 {
 	text-align: left;
 	font-size: 1em;
 	color: #3a3d41;
 	font-weight: bold;
 }
+
+h4-1 {
+	text-align: left;
+	font-size: 1.1em;
+	color: #3a3d41;
+	font-weight: bold;
+}
+
 h5 {
     text-align: center;
 	font-size: 2.1em;
@@ -594,7 +610,7 @@ height: 100%;
 	}
 	
 	#value {
-		padding: 100px 30px 100px 30px;
+		padding: 55.25px 30px 55.25px 30px;
 		background: url("../img/value.jpg") no-repeat center;
 		background-size: cover;
 		height: 230px;
@@ -844,25 +860,28 @@ p i:hover {
 		width: 100%;
 	}
 	#mission {
-		padding: 150px 30px 150px 30px;
+		font-size: 1.05em;
+		padding: 100px 15px 0px 15px;
 		background: url("../img/mission-mobile.jpg") no-repeat center;
 		background-size: cover;
 		width: 100%;
-		height: 120px;
+		height: 260px;
 	}
 	#vision {
-		padding: 150px 40px 150px 40px;
+		font-size: 1.05em;
+		padding: 100px 15px 0px 15px;
 		background: url("../img/vision-mobile.jpg") no-repeat center;
 		background-size: cover;
 		width: 100%;
-		height: 120px;
+		height: 260px;
 	}
 	#value {
-		padding: 150px 30px 150px 30px;
+		font-size: 1.0em;
+		padding: 60px 15px 0px 15px;
 		background: url("../img/value-mobile.jpg") no-repeat center;
 		background-size: cover;
 		width: 100%;
-		height: 120px;
+		height: 260px;
 	}
 }
 
