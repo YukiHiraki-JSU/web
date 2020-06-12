@@ -603,7 +603,7 @@ height: 100%;
 	}
 
 	#vision {
-		padding: 100px 40px 100px 40px;
+		padding: 90px 40px 100px 40px;
 		background: url("../img/vision.jpg") no-repeat center;
 		background-size: cover;
 		height: 230px;
@@ -877,7 +877,7 @@ p i:hover {
 	}
 	#value {
 		font-size: 1.0em;
-		padding: 60px 15px 0px 15px;
+		padding: 80px 15px 0px 15px;
 		background: url("../img/value-mobile.jpg") no-repeat center;
 		background-size: cover;
 		width: 100%;
