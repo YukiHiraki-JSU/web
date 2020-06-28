@@ -44,6 +44,12 @@ h1 {
 	font-size: 2.1em;
 }
 
+h1-2 {
+	color: #0b005b;
+	font-weight: 100;
+	font-size: 2.1em;
+}
+
 h2 {
     text-align: center;
 	font-size: 1.1em;
@@ -236,16 +242,6 @@ h6 {
 	color: #465867;
 }
 
-.statbar {
-	background: #ca2e2e;
-	height: auto;
-	width: 100%;
-	color: #fff;
-	padding-top: 50px;
-	padding-bottom: 20px;
-	text-align: center;
-}
-
 .highlight {
 	display: block;
 	font-size: 2.5em;
@@ -405,7 +401,7 @@ h6 {
 }
 
 .statbar {
-	background: #32cd32;
+	background: #00B523;
 	height: auto;
 	width: 100%;
 	color: #fff;
@@ -598,6 +594,19 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+}
+
+.view-product {
+  background-color: #E89600;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  width:300px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
 }
 
 .mission {
