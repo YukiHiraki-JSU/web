@@ -672,10 +672,11 @@ height: 100%;
 
 	#mission {
 		padding: 70px 30px 0px 30px;
-		background: #FFD700 url("") no-repeat center;
+		background: #FFCB6C url("") no-repeat center; /* #FFD700 */
 		background-size: cover;
 		height: 200px;
         width: auto;
+        margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -683,7 +684,7 @@ height: 100%;
 
 	#vision {
 		padding: 70px 30px 0px 30px;
-		background: #70D43A url("") no-repeat center;
+		background: #B6D987 url("") no-repeat center;  /* #70D43A */
 		background-size: cover;
 		height: 200px;
         width: auto;
@@ -694,7 +695,7 @@ height: 100%;
 	
 	#value {
 		padding: 43px 30px 0px 30px;
-		background: #827FFF url("") no-repeat center;
+		background: #709CDC url("") no-repeat center;  /* #827FFF */
 		background-size: cover;
 		height: 200px;
         width: auto;
