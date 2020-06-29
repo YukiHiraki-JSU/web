@@ -12,6 +12,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,300,200">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn">
     <link href="css/my-styles.css" rel="stylesheet">
 
     <script src="js/jquery-1.11.1.min.js"></script>
@@ -57,18 +60,28 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html">Home</a></li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#about">How it works</a></li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#product">Product</a></li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#news">News</a></li>
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#about">Why EnerScale</a></li>
+          <li><a href="#product">Product</a></li>
+          <li class="dropdown link2">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="link2a"><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Data Partners</a></li>
+              <li class="link2b"><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Agencies</a></li>
+              <li class="link2c"><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Manufacturer</a></li>
+            </ul>
+          </li>
           <li class="dropdown link2">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Company<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li class="link2a"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/company.html">Our Mission</a></li>
               <li class="link2b"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/company.html#leadership">Our Team</a></li>
+              <li class="link2c"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/news/">Latest News</a></li>
+              <li class="link2d"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/news/">Industry Blog</a></li>
+              <li class="link2e"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/index.html#contact">Contact Us</a></li>
             </ul>
           </li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#contact">Contact</a></li>
+          <a href=""><button class="view-login"><img src="img/key.png" class="key">Login</button></a>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->

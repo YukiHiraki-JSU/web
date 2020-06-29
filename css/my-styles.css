@@ -26,7 +26,7 @@ body {
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;	
 }
-	
+
 hr {
     display: block;
     height: 1px;
@@ -42,12 +42,14 @@ h1 {
 	color: #fff;
 	font-weight: 100;
 	font-size: 2.1em;
+	font-family: 'Oswald', sans-serif;
 }
 
 h1-2 {
 	color: #0b005b;
 	font-weight: 100;
 	font-size: 2.1em;
+	font-family: 'Oswald', sans-serif;
 }
 
 h2 {
@@ -56,6 +58,7 @@ h2 {
 	color: #3a3d41;
 	font-weight: bold;
 	margin-bottom: -10px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2-1 {
@@ -80,6 +83,7 @@ h3-1 {
 	color: #1C1C1D;
 	font-weight: bold;
 	margin-bottom: 0px;
+	font-family: 'Kaushan Script', cursive;
 }
 
 h4 {
@@ -94,6 +98,7 @@ h4-1 {
 	font-size: 1.1em;
 	color: #1C1C1D;
 	font-weight: bold;
+	font-family: 'Kaushan Script', cursive;
 }
 
 h5 {
@@ -108,8 +113,7 @@ h6 {
 	font-size: 2.2em;
 	color: #000000;
 	margin-bottom: 20px;
-	font-weight: bold;
-	font-family: arial black;
+	font-family: 'Oswald', sans-serif;
 }
 
 .row > p:nth-child(3) {
@@ -118,6 +122,7 @@ h6 {
 
 .container {
 	max-width: 1100px;
+	font-family: 'Vollkorn', serif;
 }
 
 .spacing {
@@ -366,6 +371,7 @@ h6 {
 .lastline {
 	text-align: center;
 	color: #6d737f;
+	font-family: 'Vollkorn', serif;
 }
 
 .lastline a {
@@ -611,10 +617,10 @@ height: 100%;
 }
 
 .view-login {
-  background-color: #E4B800;
+  background-color: #FFFFFF;
   border-radius: 5px;
   border: double;
-  color: white;
+  color: #8C8C8C;
   width:80px;
   padding: 2px 1px;
   text-align: center;
@@ -652,7 +658,7 @@ height: 100%;
 	}
 
 	#vision {
-		padding: 70px 40px 0px 40px;
+		padding: 70px 30px 0px 30px;
 		background: #70D43A url("") no-repeat center;
 		background-size: cover;
 		height: 200px;
