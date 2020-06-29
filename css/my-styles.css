@@ -55,7 +55,7 @@ h1-2 {
 h2 {
     text-align: center;
 	font-size: 1.1em;
-	color: #E4B800; /* #3a3d41 */
+	color: #3a3d41;
 	font-weight: bold;
 	margin-bottom: -10px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -67,7 +67,6 @@ h2-1 {
 	color: #fff;
 	margin-bottom: -10px;
 }
-
 
 h3 {
 	text-align: center;
@@ -410,7 +409,7 @@ h6 {
 }
 
 .statbar {
-	background: #F3F3F3; /* 00B523 */
+	background: #F4F4F4; /* 00B523 */
 	height: auto;
 	width: 100%;
 	color: #fff;
