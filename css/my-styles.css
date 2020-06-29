@@ -55,7 +55,7 @@ h1-2 {
 h2 {
     text-align: center;
 	font-size: 1.1em;
-	color: #3a3d41;
+	color: #E4B800; /* #3a3d41 */
 	font-weight: bold;
 	margin-bottom: -10px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -253,6 +253,7 @@ h6 {
 	font-size: 2.5em;
 	font-weight: 300;
 	margin-top: 10px;
+	color: #00B523;
 }
 
 .hyphen {
@@ -273,6 +274,7 @@ h6 {
 	font-size: 1.3em;
 	font-weight: 300;
 	margin-bottom: 40px;
+	color: #000000;
 }
 
 
@@ -408,7 +410,7 @@ h6 {
 }
 
 .statbar {
-	background: #00B523;
+	background: #F3F3F3; /* 00B523 */
 	height: auto;
 	width: 100%;
 	color: #fff;
@@ -477,6 +479,13 @@ h6 {
 	color: #000;
 	width: 100%;
 	line-height: 1.7em;
+}
+
+.enedata img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
 }
 
 #case1 {	
