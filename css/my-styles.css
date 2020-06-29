@@ -115,6 +115,22 @@ h6 {
 	font-family: 'Oswald', sans-serif;
 }
 
+h7 {
+    text-align: center;
+	font-size: 3em;
+	color: #000000;
+	margin-bottom: 20px;
+	font-family: 'Cherry Swash', cursive;
+}
+
+h7-1 {
+    text-align: center;
+	font-size: 1.5em;
+	color: #000000;
+	margin-bottom: 20px;
+	font-family: 'Vollkorn', serif;
+}
+
 .row > p:nth-child(3) {
 	font-size: 0.9em;
 }
@@ -687,12 +703,132 @@ height: 100%;
         -o-background-size: cover;
 	}
 
-	
+.datapartner {
+		font-size: 1.5em;
+        width: 100%;
+	}
+
+	#datapartner-1 {
+		padding: 70px 30px 0px 30px;
+		background: #FFF2D0 url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+	}
+
+.view-datapartner {
+  background-color: #E4B800;
+  border-radius: 24px;
+  border: double;
+  color: white;
+  width:300px;
+  padding: 15px 32px;
+  margin-top: 60px;
+  margin-left: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.datapartner-image img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+	margin-top: 60px;
+}
+
+.agencies {
+		font-size: 1.5em;
+        width: 100%;
+	}
+
+	#agencies-1 {
+		padding: 70px 30px 0px 30px;
+		background: #F7FFED url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+	}
+
+.view-agencies {
+  background-color: #B7DE84;
+  border-radius: 24px;
+  border: double;
+  color: white;
+  width:300px;
+  padding: 15px 32px;
+  margin-top: 60px;
+  margin-left: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.agencies-image img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+	margin-top: 60px;
+}
+
+.manufacturer {
+		font-size: 1.5em;
+        width: 100%;
+	}
+
+	#manufacturer-1 {
+		padding: 70px 30px 0px 30px;
+		background: #DFE1FF url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+	}
+
+.view-manufacturer {
+  background-color: #9297FB;
+  border-radius: 24px;
+  border: double;
+  color: white;
+  width:300px;
+  padding: 15px 32px;
+  margin-top: 60px;
+  margin-left: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.manufacturer-image img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+	margin-top: 60px;
+}
+
 /* Navbar
 ================================ */
 .navbar {
 	background-color: #fff;
 	font-weight: bold;
+	font-size: 21px;
 	margin-top: -50px;
 	width: 100%;
 	position: fixed;
