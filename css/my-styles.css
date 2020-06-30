@@ -438,7 +438,7 @@ h7-1 {
 .highlight {
 	display: block;
 	font-size: 2.5em;
-	font-weight: 300;
+	font-weight: 800;
 	margin-top: 10px;
 }
 
@@ -858,7 +858,56 @@ height: 100%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-	}
+    }
+        
+    #service-details-1 {
+		padding: 70px 30px 0px 30px;
+		background: #F8F8F8 url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+    
+    #service-details-2 {
+		padding: 70px 30px 0px 30px;
+		background: #FFFFFF url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+    
+    #service-details-3 {
+		padding: 70px 30px 0px 30px;
+		background: #F8F8F8 url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+    
+    #service-details-4 {
+		padding: 70px 30px 0px 30px;
+		background: #FFFFFF url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 0px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
 
 .view-service {
   background-color: #E4B800;
@@ -881,6 +930,16 @@ height: 100%;
 	display: block;
 	position: relative;
 	margin-top: 0px;
+}
+
+.service-statbar {
+	background: #FFFFFF; /* 00B523 */
+	height: auto;
+	width: 100%;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 .box30 {
