@@ -107,6 +107,7 @@ h5 {
 	margin-bottom: -10px;
 }
 
+
 h6 {
     text-align: center;
 	font-size: 2.2em;
@@ -737,11 +738,11 @@ height: 100%;
 }
 
 .datapartner-image img{
-	max-width: 100%;
-	height: auto;
+	width: 450px;
+	height: 450px;
 	display: block;
 	position: relative;
-	margin-top: 60px;
+	margin-top: 0px;
 }
 
 .agencies {
@@ -777,11 +778,11 @@ height: 100%;
 }
 
 .agencies-image img{
-	max-width: 100%;
-	height: auto;
+	width: 450px;
+	height: 450px;
 	display: block;
 	position: relative;
-	margin-top: 60px;
+	margin-top: 0px;
 }
 
 .manufacturer {
@@ -817,11 +818,179 @@ height: 100%;
 }
 
 .manufacturer-image img{
-	max-width: 100%;
-	height: auto;
+	width: 450px;
+	height: 450px;
 	display: block;
 	position: relative;
-	margin-top: 60px;
+	margin-top: 0px;
+}
+
+.price {
+		font-size: 1.5em;
+        width: 100%;
+	}
+
+	#price-1 {
+		padding: 70px 30px 0px 30px;
+		background: #FFF2D0 url("") no-repeat center;
+		background-size: cover;
+		height: 300px;
+        width: auto;
+        margin-top: 20px;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+	}
+
+.service {
+		font-size: 1.5em;
+        width: 100%;
+	}
+
+	#service-1 {
+		padding: 70px 30px 0px 30px;
+		background: #FFF2D0 url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+	}
+
+.view-service {
+  background-color: #E4B800;
+  border-radius: 24px;
+  border: double;
+  color: white;
+  width:300px;
+  padding: 15px 32px;
+  margin-top: 60px;
+  margin-left: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.service-image img{
+	width: 450px;
+	height: 450px;
+	display: block;
+	position: relative;
+	margin-top: 0px;
+}
+
+.box30 {
+    margin: 2em 0;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.box30 .box-title {
+    font-size: 1.2em;
+    background: #0b005b;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-family: 'Oswald', sans-serif;
+}
+.box30 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+/* Checkbox 
+================================*/
+input[type=checkbox],input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    vertical-align: -0.8rem;
+    transition:all .15s ease-out 0s;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: .4rem;
+    outline: none;
+    border-radius: 10%;
+}
+
+input[type=checkbox]:before,input[type=checkbox]:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    transition: all .2s ease-in-out;
+}
+input[type=checkbox]:before {
+    left: 2px;
+    top: 6px;
+    width: 0;
+    height: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+input[type=checkbox]:after {
+    right: 9px;
+    bottom: 3px;
+    width: 2px;
+    height: 0;
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transition-delay: .2s;
+}
+input[type=checkbox]:checked:before {
+    left: 1px;
+    top: 10px;
+    width: 6px;
+    height: 2px;
+}
+input[type=checkbox]:checked:after {
+    right: 5px;
+    bottom: 1px;
+    width: 2px;
+    height: 14px;
+}
+input[type=checkbox]:indeterminate:before,input[type=checkbox]:indeterminate:after {
+    width: 7px;
+    height: 2px;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+input[type=checkbox]:indeterminate:before {
+    left: 1px;
+    top: 7px;
+}
+input[type=checkbox]:indeterminate:after {
+    right: 1px;
+    bottom: 7px;
+}
+
+input[type=checkbox].blue,input[type=radio].blue {
+    border: 2px solid #00C324;
+}
+input[type=checkbox].blue:checked,input[type=checkbox].blue:indeterminate,input[type=radio].blue:checked:before {
+    background: #00C324;
 }
 
 /* Navbar
@@ -1100,6 +1269,94 @@ p i:hover {
 		-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
+}
+
+#datapartner-1 {
+		padding: 70px 30px 0px 30px;
+		background: #FFF2D0 url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+.datapartner-image img{
+	width: 0px;
+	height: 0px;
+	display: block;
+	position: relative;
+}
+
+#agencies-1 {
+		padding: 70px 30px 0px 30px;
+		background: #F7FFED url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+.agencies-image img{
+	width: 0px;
+	height: 0px;
+	display: block;
+	position: relative;
+}
+
+#manufacturer-1 {
+		padding: 70px 30px 0px 30px;
+		background: #DFE1FF url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+.manufacturer-image img{
+	width: 0px;
+	height: 0px;
+	display: block;
+	position: relative;
+}
+
+#price-1 {
+		padding: 70px 30px 0px 30px;
+		background: #FFF2D0 url("") no-repeat center;
+		background-size: cover;
+		height: 400px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+#service-1 {
+		padding: 70px 30px 0px 30px;
+		background: #FFF2D0 url("") no-repeat center;
+		background-size: cover;
+		height: 600px;
+        width: auto;
+        margin-top: 20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+.service-image img{
+	width: 0px;
+	height: 0px;
+	display: block;
+	position: relative;
 }
 
 @media only screen and (max-width: 992px) {

@@ -62,7 +62,14 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="https://yukihiraki-jsu.github.io/web/index.html">Home</a></li>
           <li><a href="https://yukihiraki-jsu.github.io/web/index.html#about">Why EnerScale</a></li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#product">Product</a></li>
+          <li class="dropdown link2">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="link2a"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/index#product.html">Overview</a></li>
+              <li class="link2b"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/service.html">EnerScale Platform</a></li>
+              <li class="link2c"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/price.html">Pricing</a></li>
+            </ul>
+          </li>
           <li class="dropdown link2">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners<span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -86,7 +93,27 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
   </nav>
- 
+
+<!-- Section: EnerScale -->
+	<div class="" id="service">
+		<div class="row" id="service-1">
+            <div class="col-md-6">
+              <div class="space40"></div>
+              <h7>EnerScale Platform</h7>
+              <div class="space20"></div>
+              <h7-1>Join over 6,000 partners already working with the world’s most trusted attribution platform</h7-1>
+              <div class="title" align="left">
+        	    <a href="https://yukihiraki-jsu.github.io/web/index.html#contact"><button class="view-service"><b>Contact</b></button></a>
+              </div>
+            </div>
+        	<div class="col-md-6">
+        		<div class="service-image"><img src="img/service_ai.png"></div>
+        	</div>
+    	</div>
+    </div>
+     
+     <div class="space20"></div>
+     
 <!-- Stat Bar -->
    <div class="statbar wow fadeInUp" data-wow-delay=".3s">
    	 <h1>私たちが目指す導入後の数値目標</h1><br>
@@ -127,37 +154,6 @@
      </div>
      
      <div class="space20"></div>
-    
-<!-- Top main area End-->
-
-  <div class="container" id="about">
-  
-      <p class="headingtitle">アフリカを主とした途上国の"未電化地域を含む電力不安定地域"でオフグリッド電力を提供している企業様に対して、<br>人工知能を用いたSmart Management Systemを提供しています。</p>
-      <div class="row">
-
-         <div class="col-sm-4">
-            <img src="img/aboutus.png">
-            <h2>EnerScaleについて</h2>
-            <p><br>私たちは不安定かつ非持続的なオフグリッド電力のコスト・システムに対する最適化を図り、オフグリッド環境のスマートホーム化を目指しています。そのようなミッションの元、オフグリッド発電が急速に普及するアフリカや途上国で、電力供給量を最大化させ、運用やシステムコストを最小化させる人口知能EMSに特化したアプローチをしています。「感覚で実施する運用」から「的確にコントロールできる運用」を目指すことで、持続的かつ安定的な電力インフラを支えたいと考えています。そして、その先にある"電力が当たり前に利用できる未来”、”オフグリッドスマートホームによる医療・教育・情報格差の解消”を実現したいと考えています。</p>
-         </div>
-
-         <div class="col-sm-4">
-            <img src="img/market.png">
-            <h2>マーケット</h2>
-            <p><br>アフリカで電力不安定地域に暮らす人々は8億人以上おり、電力不足が原因でアフリカのGDPの2~4%が毎年失われていると言われています。そのような中で、アフリカではオフグリッド発電が2030年に54％（ミニグリッド含む）を占めると言われるほど急速に普及していますが、電力提供者の非効率な運用システムや発電条件・環境等の影響で、持続的かつ安定的な電力を保つためのアプローチが著しく不足しています。いま電力提供者の多くは政府やNGOなどの助成金で運用し、事業としての持続性を保つことが困難な状況です。そのため、電力不安定地域で生活する人々が、安定かつ安価な電力を利用するには、電力提供者の運用負担を大幅に削減した持続的な電力運用システムを提供することが必要です。</p>
-         </div>
-        
-         <div class="col-sm-4">
-           <img src="img/ai.png">
-           <h2>プロダクト/サービス</h2>
-           <p><br>独自の人工知能モデルを用いた監視・解析・予測をし、次世代メンテナンスの予知保全(Predictive maintenance)運用や最適な販売・マーケティング計画を実現させます。具体的には、基礎データの電力やPAYGO・CRMデータと、コントローラから取得できない独自に収集したデータ（気象データ等）や100以上の環境変数（人口やパネル傾斜角度等）を独自のアルゴリズムで組み合わせて計算し、
-           パネルの最適な発電条件や販売計画、不必要な部品交換費用の削減・メンテナンス人員の負担削減・機器停止回避による電力効率化などのO&M運用に対して高度な人工知能ソリューションを提供します。</p>
-         </div>        
-      </div>
-    </div>
-  </div>
-  
-   <div class="space20"></div>
 
 <!-- Video Section: EnerScale -->
     <div class="video-section">
@@ -175,17 +171,11 @@
     <div class="container" id="product">
       <div class="space60"></div>
       <div class="title" align="center">
-          <h1><a href="">EnerScale</a></h1>
+          <h1-2>EnerScale</h1-2>
       </div>
-　　　　 <p class="headingtitle">オフグリッド電力向けの人工知能を用いたSmartManagmentSystem</p>
-      <div class="macbook-image">
-        <img src="img/ai.png">
-      </div>
-      <div class="row">
-        <div class="space40"></div>
-        <div class="title" align="center">
-            <a href="" class="readall-btn">VISIT SITE<i class="fa fa-angle-double-right fa-lg"></i></a>  
-        </div>
+　　　　 <h2 class="headingtitle">オフグリッド電力向けのエネルギーデータプラットフォーム</h2>
+      <div class="enedata">
+        <img src="img/test.png" width="800" height="424">
       </div>
 
       <div class="space60"></div>
@@ -272,47 +262,6 @@
              <h2>解析データに応じた従量課金</h2>
              <p><br>解析に要した時間が料金となります。解析時間は「データ量」と「アウトプットする内容」によって異なりますので、解析前の見積価格をご参考ください。現在のβ版は1回あたり無料となります。</p>
            </div>
-        </div>
-      </div>
-    </div>
- 
-  <!-- Expain: EnerScale   --> 
-    <div class="container">
-      <div class="row" id="case2">
-        <div class="case2">
-          <div class="col-md-6">
-            <p><b>導入ステップ（新規導入）</b><br>
-               1:M2M SIMカードをインバータに挿入し、弊社指定のデータ送信先を設定<br>
-               2:***************<br>
-               3:***************<br>
-               4:***************<br>
-               5:***************<br>
-               6:***************<br>
-               7:Completed!
-            </p>
-          </div>
-          <div class="col-md-6"></div>
-        </div>
-      </div>
-      <div class="row" id="case1">
-        <div class="case1">
-          <div class="col-md-6"></div>
-          <div class="col-md-6">
-             <p><b>導入ステップ（切替）</b><br>
-               1:M2M SIMカードのデータ送信先を弊社指定のデータ送信先に設定<br>
-               2:***************<br>
-               3:***************<br>
-               4:***************<br>
-               5:***************<br>
-               6:***************<br>
-               7:Completed!
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="case3">
-        <div class="more-info">
-            <p><a href=""><font color="#A4C6FF">EnerScale</font></a>にご興味のある方は以下までご連絡ください。<br><a href="mailto:info@enerscale.sg">info@enerscale.sg</a></p>
         </div>
       </div>
     </div>
