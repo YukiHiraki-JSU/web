@@ -107,6 +107,14 @@ h5 {
 	margin-bottom: -10px;
 }
 
+h5-1 {
+    text-align: left;
+	font-size: 2em;
+	color: #000000;
+	margin-bottom: -10px;
+	font-family: 'Kaushan Script', cursive;
+}
+
 
 h6 {
     text-align: center;
@@ -673,9 +681,9 @@ height: 100%;
 
 	#mission {
 		padding: 70px 30px 0px 30px;
-		background: #FFD700 url("") no-repeat center; /* #FFD700 */
+		background: #FFF2D0 url("") no-repeat center; /* #FFD700 */
 		background-size: cover;
-		height: 200px;
+		height: 500px;
         width: auto;
         margin-top: 20px;
         -webkit-background-size: cover;
@@ -685,9 +693,9 @@ height: 100%;
 
 	#vision {
 		padding: 70px 30px 0px 30px;
-		background: #70D43A url("") no-repeat center;  /* #70D43A */
+		background: #F7FFED url("") no-repeat center;  /* #70D43A */
 		background-size: cover;
-		height: 200px;
+		height: 500px;
         width: auto;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -695,10 +703,10 @@ height: 100%;
 	}
 	
 	#value {
-		padding: 43px 30px 0px 30px;
-		background: #827FFF url("") no-repeat center;  /* #827FFF */
+		padding: 70px 30px 0px 30px;
+		background: #DFE1FF url("") no-repeat center;  /* #827FFF */
 		background-size: cover;
-		height: 200px;
+		height: 500px;
         width: auto;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1299,7 +1307,7 @@ p i:hover {
 	#mission {
 		font-size: 1.05em;
 		padding: 30px 15px 0px 15px;
-		background: #FFD700 url("") no-repeat center;
+		background: #FFF2D0 url("") no-repeat center;
 		background-size: cover;
 		width: auto;
 		height: 250px;
@@ -1310,7 +1318,7 @@ p i:hover {
 	#vision {
 		font-size: 1.05em;
 		padding: 30px 15px 0px 15px;
-		background: #70D43A url("") no-repeat center;
+		background: #F7FFED url("") no-repeat center;
 		background-size: cover;
 		width: auto;
 		height: 250px;
@@ -1321,7 +1329,7 @@ p i:hover {
 	#value {
 		font-size: 1.0em;
 		padding: 30px 15px 0px 15px;
-		background: #827FFF url("") no-repeat center;
+		background: #DFE1FF url("") no-repeat center;
 		background-size: cover;
 		width: auto;
 		height: 250px;
@@ -1446,10 +1454,10 @@ p i:hover {
 	#mission {
 		font-size: 1.05em;
 		padding: 30px 15px 0px 15px;
-		background: #FFD700 url("") no-repeat center;
+		background: #FFF2D0 url("") no-repeat center;
 		background-size: cover;
 		width: auto;
-		height: 250px;
+		height: 700px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1457,10 +1465,10 @@ p i:hover {
 	#vision {
 		font-size: 1.05em;
 		padding: 30px 15px 0px 15px;
-		background: #70D43A url("") no-repeat center;
+		background: #F7FFED url("") no-repeat center;
 		background-size: cover;
 		width: auto;
-		height: 250px;
+		height: 700px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1468,10 +1476,10 @@ p i:hover {
 	#value {
 		font-size: 1.0em;
 		padding: 10px 15px 0px 15px;
-		background: #827FFF url("") no-repeat center;
+		background: #DFE1FF url("") no-repeat center;
 		background-size: cover;
 		width: auto;
-		height: 250px;
+		height: 700px;
 		-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
