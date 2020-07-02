@@ -54,7 +54,7 @@ h1-2 {
 
 h2 {
     text-align: center;
-	font-size: 1.1em;
+	font-size: 1.4em;
 	color: #3a3d41;
 	font-weight: bold;
 	margin-bottom: -10px;
@@ -78,11 +78,10 @@ h3 {
 
 h3-1 {
 	text-align: left;
-	font-size: 1.4em;
-	color: #1C1C1D;
+	font-size: 1.1em;
+	color: #3a3d41;
 	font-weight: bold;
-	margin-bottom: 0px;
-	font-family: 'Kaushan Script', cursive;
+	margin-bottom: -10px;
 }
 
 h4 {
@@ -109,10 +108,10 @@ h5 {
 
 h5-1 {
     text-align: left;
-	font-size: 2em;
+	font-size: 2.2em;
 	color: #000000;
 	margin-bottom: -10px;
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Teko', sans-serif;
 }
 
 
