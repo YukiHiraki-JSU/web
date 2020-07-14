@@ -945,6 +945,14 @@ height: 100%;
 	margin-top: 0px;
 }
 
+.service-image2 img{
+	width: 600px;
+	height: 282px;
+	display: block;
+	position: relative;
+	margin-top: 100px;
+}
+
 .service-statbar {
 	background: #FFFFFF; /* 00B523 */
 	height: auto;
