@@ -365,7 +365,7 @@ h7-1 {
 	background-position: top 152px center; 
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 120px;
+	padding-bottom: 50px;
 }
 
 .heading > h1 {
@@ -1113,13 +1113,18 @@ input[type=checkbox].blue:checked,input[type=checkbox].blue:indeterminate,input[
 	display: none;
 }
 
-/* Youtube Video
+/* Video
 ================================ */
-.embed-container iframe{
+.embed-container video{
 	display: block; 
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2px;
+}
+
+.video-service {
+	width: 740px;
+	height: 320px;
 }
 
 
@@ -1523,8 +1528,8 @@ p i:hover {
 	h1 {
 		font-size: 1.5em;
 	}
-	.embed-container iframe {
-		max-width: 90%;
+	.embed-container video {
+		max-width: 100%;
 		max-height: 100%;
 	}
 	.space900{
