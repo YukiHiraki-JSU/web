@@ -1405,7 +1405,7 @@ p i:hover {
 
 #datapartner-1 {
 		padding: 70px 30px 0px 30px;
-		background: #FFF2D0 url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 600px;
         width: auto;
@@ -1424,7 +1424,7 @@ p i:hover {
 
 #agencies-1 {
 		padding: 70px 30px 0px 30px;
-		background: #F7FFED url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #08d20d); /* #F7FFED */
 		background-size: cover;
 		height: 600px;
         width: auto;
@@ -1443,7 +1443,7 @@ p i:hover {
 
 #manufacturer-1 {
 		padding: 70px 30px 0px 30px;
-		background: #DFE1FF url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #5855c6); /* #DFE1FF */
 		background-size: cover;
 		height: 600px;
         width: auto;
@@ -1462,7 +1462,7 @@ p i:hover {
 
 #price-1 {
 		padding: 70px 30px 0px 30px;
-		background: #FFF2D0 url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 400px;
         width: auto;
@@ -1474,7 +1474,7 @@ p i:hover {
 
 #service-1 {
 		padding: 70px 30px 0px 30px;
-		background: #FFF2D0 url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 600px;
         width: auto;
