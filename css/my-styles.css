@@ -401,7 +401,7 @@ h7-1 {
 
 .lastline {
 	text-align: center;
-	color: #6d737f;
+	color: #FFF;  /* #6d737f */
 	font-family: 'Vollkorn', serif;
 }
 
@@ -439,7 +439,7 @@ h7-1 {
 }
 
 .statbar {
-	background: #F4F4F4; /* 00B523 */
+	background: radial-gradient(#FFFFFF, #f2c200); /* #F4F4F4 */
 	height: auto;
 	width: 100%;
 	color: #fff;
@@ -686,7 +686,7 @@ height: 100%;
 
 	#mission {
 		padding: 70px 30px 0px 30px;
-		background: #FFF2D0 url("") no-repeat center; /* #FFD700 */
+		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 linear-gradient(-135deg, #FFF2D0, #f2c200) radial-gradient(#FFF2D0, #f2c200)*/
 		background-size: cover;
 		height: 500px;
         width: auto;
@@ -698,7 +698,7 @@ height: 100%;
 
 	#vision {
 		padding: 70px 30px 0px 30px;
-		background: #F7FFED url("") no-repeat center;  /* #70D43A */
+		background: radial-gradient(#FFFFFF, #08d20d);  /* #F7FFED */
 		background-size: cover;
 		height: 500px;
         width: auto;
@@ -709,7 +709,7 @@ height: 100%;
 	
 	#value {
 		padding: 70px 30px 0px 30px;
-		background: #DFE1FF url("") no-repeat center;  /* #827FFF */
+		background: radial-gradient(#FFFFFF, #5855c6);  /* #DFE1FF */
 		background-size: cover;
 		height: 500px;
         width: auto;
@@ -725,7 +725,7 @@ height: 100%;
 
 	#datapartner-1 {
 		padding: 70px 30px 0px 30px;
-		background: #FFF2D0 url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 600px;
         width: auto;
@@ -736,7 +736,7 @@ height: 100%;
 	}
 
 .view-datapartner {
-  background-color: #E4B800;
+  background-color: #5855c6;/* #E4B800 */
   border-radius: 24px;
   border: double;
   color: white;
@@ -765,7 +765,7 @@ height: 100%;
 
 	#agencies-1 {
 		padding: 70px 30px 0px 30px;
-		background: #F7FFED url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #08d20d); /* #F7FFED */
 		background-size: cover;
 		height: 600px;
         width: auto;
@@ -776,7 +776,7 @@ height: 100%;
 	}
 
 .view-agencies {
-  background-color: #B7DE84;
+  background-color: #f2c200;/* #B7DE84 */
   border-radius: 24px;
   border: double;
   color: white;
@@ -805,7 +805,7 @@ height: 100%;
 
 	#manufacturer-1 {
 		padding: 70px 30px 0px 30px;
-		background: #DFE1FF url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #5855c6); /* #DFE1FF */
 		background-size: cover;
 		height: 600px;
         width: auto;
@@ -816,7 +816,7 @@ height: 100%;
 	}
 
 .view-manufacturer {
-  background-color: #9297FB;
+  background-color: #08d20d;/* #9297FB4 */
   border-radius: 24px;
   border: double;
   color: white;
@@ -845,7 +845,7 @@ height: 100%;
 
 	#price-1 {
 		padding: 70px 30px 0px 30px;
-		background: #FFF2D0 url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 300px;
         width: auto;
@@ -855,7 +855,7 @@ height: 100%;
         -moz-background-size: cover;
         -o-background-size: cover;
 	}
-
+	
 .service {
 		font-size: 1.5em;
         width: 100%;
@@ -863,7 +863,7 @@ height: 100%;
 
 	#service-1 {
 		padding: 70px 30px 0px 30px;
-		background: #FFF2D0 url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 600px;
         width: auto;
@@ -923,7 +923,7 @@ height: 100%;
 
 
 .view-service {
-  background-color: #E4B800;
+  background-color: #5855c6;
   border-radius: 24px;
   border: double;
   color: white;
@@ -965,7 +965,7 @@ height: 100%;
 
 .box30 {
     margin: 2em 0;
-    background: #f1f1f1;
+    background: radial-gradient(#FFFFFF, #D7CFCF); /* #f1f1f1 */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
 }
 .box30 .box-title {
@@ -1127,6 +1127,53 @@ input[type=checkbox].blue:checked,input[type=checkbox].blue:indeterminate,input[
 	height: 320px;
 }
 
+
+/* Footer
+================================ */
+.footer-wrap .menu-left, .menu-center, .menu-right {
+    display: inline-block;
+    width: 20%;
+    margin: 50px auto;
+}
+
+.footer-wrap ul {
+    list-style: none;
+    padding: 0;
+    line-height:40px;
+}
+
+.footer-wrap {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-wrap h3 {
+    color: #fff;
+    border-bottom: 3px solid #08d20d;
+    padding: 10px;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
+
+.footer-wrap a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+}
+.footer-wrap a:hover {
+    color: deeppink;
+}
+
+.footer-wrap .cmark {
+    display: block;
+    padding: 10px;
+    border-top: 1px solid gray;
+    width: 80%;
+    margin: 0 auto;
+    color: gray;
+}
 
 /* Buttons
 ================================
@@ -1325,7 +1372,7 @@ p i:hover {
 	#mission {
 		font-size: 1.05em;
 		padding: 30px 15px 0px 15px;
-		background: #FFF2D0 url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #f2c200);
 		background-size: cover;
 		width: auto;
 		height: 250px;
@@ -1336,7 +1383,7 @@ p i:hover {
 	#vision {
 		font-size: 1.05em;
 		padding: 30px 15px 0px 15px;
-		background: #F7FFED url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #08d20d);
 		background-size: cover;
 		width: auto;
 		height: 250px;
@@ -1347,7 +1394,7 @@ p i:hover {
 	#value {
 		font-size: 1.0em;
 		padding: 30px 15px 0px 15px;
-		background: #DFE1FF url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #5855c6);
 		background-size: cover;
 		width: auto;
 		height: 250px;
@@ -1452,6 +1499,15 @@ p i:hover {
 	margin-top: auto;
 }
 
+.footer-wrap .menu-left, .menu-center, .menu-right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .footer-wrap .cpr {
+        display: inline;
+    }
+
 @media only screen and (max-width: 992px) {
 	#ipaddiv {
 		display: none;
@@ -1480,7 +1536,7 @@ p i:hover {
 	#mission {
 		font-size: 1.05em;
 		padding: 30px 15px 0px 15px;
-		background: #FFF2D0 url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #f2c200);
 		background-size: cover;
 		width: auto;
 		height: 700px;
@@ -1491,7 +1547,7 @@ p i:hover {
 	#vision {
 		font-size: 1.05em;
 		padding: 30px 15px 0px 15px;
-		background: #F7FFED url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #08d20d);
 		background-size: cover;
 		width: auto;
 		height: 700px;
@@ -1502,7 +1558,7 @@ p i:hover {
 	#value {
 		font-size: 1.0em;
 		padding: 10px 15px 0px 15px;
-		background: #DFE1FF url("") no-repeat center;
+		background: radial-gradient(#FFFFFF, #5855c6);
 		background-size: cover;
 		width: auto;
 		height: 700px;
@@ -1511,6 +1567,15 @@ p i:hover {
         -o-background-size: cover;
 	}
 }
+
+.footer-wrap .menu-left, .menu-center, .menu-right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .footer-wrap .cpr {
+        display: inline;
+    }
 
 @media only screen and (max-width: 685px) {
 	.container {
