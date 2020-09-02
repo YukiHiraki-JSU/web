@@ -689,7 +689,7 @@ height: 100%;
 		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 linear-gradient(-135deg, #FFF2D0, #f2c200) radial-gradient(#FFF2D0, #f2c200)*/
 		background-size: cover;
 		height: 500px;
-        width: auto;
+        width: 101.25%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -701,7 +701,7 @@ height: 100%;
 		background: radial-gradient(#FFFFFF, #08d20d);  /* #F7FFED */
 		background-size: cover;
 		height: 500px;
-        width: auto;
+        width: 101.25%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -712,7 +712,7 @@ height: 100%;
 		background: radial-gradient(#FFFFFF, #5855c6);  /* #DFE1FF */
 		background-size: cover;
 		height: 500px;
-        width: auto;
+        width: 101.25%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -728,7 +728,7 @@ height: 100%;
 		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 101.25%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -768,7 +768,7 @@ height: 100%;
 		background: radial-gradient(#FFFFFF, #08d20d); /* #F7FFED */
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 101.25%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -808,7 +808,7 @@ height: 100%;
 		background: radial-gradient(#FFFFFF, #5855c6); /* #DFE1FF */
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 101.25%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -848,7 +848,7 @@ height: 100%;
 		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 300px;
-        width: auto;
+        width: 101.25%;
         margin-top: 20px;
         text-align: center;
         -webkit-background-size: cover;
@@ -866,7 +866,7 @@ height: 100%;
 		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 101.25%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -878,7 +878,7 @@ height: 100%;
 		background: #F8F8F8 url("") no-repeat center;
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 101.25%;
         margin-top: 0px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -890,7 +890,7 @@ height: 100%;
 		background: #FFFFFF url("") no-repeat center;
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 101.25%;
         margin-top: 0px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -902,7 +902,7 @@ height: 100%;
 		background: #F8F8F8 url("") no-repeat center;
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 101.25%;
         margin-top: 0px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -914,13 +914,12 @@ height: 100%;
 		background: #FFFFFF url("") no-repeat center;
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 101.25%;
         margin-top: 0px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
     }
-
 
 .view-service {
   background-color: #5855c6;
@@ -1080,9 +1079,10 @@ input[type=checkbox].blue:checked,input[type=checkbox].blue:indeterminate,input[
 	font-weight: bold;
 	font-size: 21px;
 	margin-top: -50px;
-	margin-left: -3px;
-	width: 103%;
+	margin-left: 0px;
+	width: 100%;
 	position: fixed;
+	border: 1px solid #333;
 	border-bottom: 0px solid #333; /* #d8d8d8 */
 	border-radius: 0px !important;
 	z-index: 999;
@@ -1147,6 +1147,8 @@ input[type=checkbox].blue:checked,input[type=checkbox].blue:indeterminate,input[
     background-color: #333;
     color: #fff;
     text-align: center;
+    margin-left: 0px;
+	width: 100%;
 }
 
 .footer-wrap h3 {
@@ -1375,7 +1377,7 @@ p i:hover {
 		padding: 30px 15px 0px 15px;
 		background: radial-gradient(#FFFFFF, #f2c200);
 		background-size: cover;
-		width: auto;
+		width: 103%;
 		height: 250px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1386,7 +1388,7 @@ p i:hover {
 		padding: 30px 15px 0px 15px;
 		background: radial-gradient(#FFFFFF, #08d20d);
 		background-size: cover;
-		width: auto;
+		width: 103%;
 		height: 250px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1397,7 +1399,7 @@ p i:hover {
 		padding: 30px 15px 0px 15px;
 		background: radial-gradient(#FFFFFF, #5855c6);
 		background-size: cover;
-		width: auto;
+		width: 103%;
 		height: 250px;
 		-webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1409,7 +1411,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 103%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1428,7 +1430,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #08d20d); /* #F7FFED */
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 103%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1447,7 +1449,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #5855c6); /* #DFE1FF */
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 103%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1466,7 +1468,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 400px;
-        width: auto;
+        width: 103%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1478,7 +1480,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 */
 		background-size: cover;
 		height: 600px;
-        width: auto;
+        width: 103%;
         margin-top: 20px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1539,7 +1541,7 @@ p i:hover {
 		padding: 30px 15px 0px 15px;
 		background: radial-gradient(#FFFFFF, #f2c200);
 		background-size: cover;
-		width: auto;
+		width: 103%;
 		height: 700px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1550,7 +1552,7 @@ p i:hover {
 		padding: 30px 15px 0px 15px;
 		background: radial-gradient(#FFFFFF, #08d20d);
 		background-size: cover;
-		width: auto;
+		width: 103%;
 		height: 700px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1561,7 +1563,7 @@ p i:hover {
 		padding: 10px 15px 0px 15px;
 		background: radial-gradient(#FFFFFF, #5855c6);
 		background-size: cover;
-		width: auto;
+		width: 103%;
 		height: 700px;
 		-webkit-background-size: cover;
         -moz-background-size: cover;
