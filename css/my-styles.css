@@ -946,10 +946,10 @@ height: 100%;
 
 .service-image2 img{
 	width: 500px;
-	height: 282px;
+	height: 500px;
 	display: block;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 .service-statbar {
