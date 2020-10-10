@@ -685,22 +685,22 @@ height: 100%;
 	}
 
 	#mission {
-		padding: 70px 30px 0px 30px;
+		padding: 35px 30px 0px 30px;
 		background: radial-gradient(#FFFFFF, #f2c200); /* #FFF2D0 linear-gradient(-135deg, #FFF2D0, #f2c200) radial-gradient(#FFF2D0, #f2c200)*/
 		background-size: cover;
-		height: 500px;
+		height: 350px;
         width: 101.25%;
-        margin-top: 20px;
+        margin-top: 15px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
 	}
 
 	#vision {
-		padding: 70px 30px 0px 30px;
+		padding: 35px 30px 0px 30px;
 		background: radial-gradient(#FFFFFF, #08d20d);  /* #F7FFED */
 		background-size: cover;
-		height: 500px;
+		height: 350px;
         width: 101.25%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -708,10 +708,10 @@ height: 100%;
 	}
 	
 	#value {
-		padding: 70px 30px 0px 30px;
+		padding: 35px 30px 0px 30px;
 		background: radial-gradient(#FFFFFF, #5855c6);  /* #DFE1FF */
 		background-size: cover;
-		height: 500px;
+		height: 350px;
         width: 101.25%;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1378,7 +1378,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #f2c200);
 		background-size: cover;
 		width: 103%;
-		height: 250px;
+		height: 300px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1542,7 +1542,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #f2c200);
 		background-size: cover;
 		width: 103%;
-		height: 700px;
+		height: 750px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1553,7 +1553,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #08d20d);
 		background-size: cover;
 		width: 103%;
-		height: 700px;
+		height: 800px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1564,7 +1564,7 @@ p i:hover {
 		background: radial-gradient(#FFFFFF, #5855c6);
 		background-size: cover;
 		width: 103%;
-		height: 700px;
+		height: 800px;
 		-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
