@@ -140,6 +140,39 @@ h7-1 {
 	font-family: 'Vollkorn', serif;
 }
 
+h8 {
+    text-align: center;
+    font-size: 3em;
+    color: #f2c200;
+    margin-bottom: 20px;
+    font-family: 'Cherry Swash', cursive;
+}
+
+h8-1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Vollkorn', serif;
+}
+
+h9 {
+    text-align: center;
+    font-size: 3em;
+    color: #08d20d;
+    margin-bottom: 20px;
+    font-family: 'Cherry Swash', cursive;
+}
+
+h10 {
+    text-align: center;
+    font-size: 3em;
+    color: #5855c6;
+    margin-bottom: 20px;
+    font-family: 'Cherry Swash', cursive;
+}
+
+
 .row > p:nth-child(3) {
 	font-size: 0.9em;
 }
