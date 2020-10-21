@@ -142,7 +142,7 @@ h7-1 {
 
 A1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.3em;
     color: #f2c200;
     margin-bottom: 20px;
     font-family: 'Cherry Swash', cursive;
@@ -158,7 +158,7 @@ A2 {
 
 A3 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.3em;
     color: #08d20d;
     margin-bottom: 20px;
     font-family: 'Cherry Swash', cursive;
@@ -166,7 +166,7 @@ A3 {
 
 A4 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.3em;
     color: #5855c6;
     margin-bottom: 20px;
     font-family: 'Cherry Swash', cursive;
@@ -525,6 +525,27 @@ A4 {
 	color: #9d9d9d;
 	font-size: 1em;
 	font-weight: 600;
+}
+
+.post-eee {
+	color: #f2c200;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+}
+
+.post-eee2 {
+	color: #08d20d;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+}
+
+.post-eee3 {
+	color: #5855c6;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
 }
 
 .story {
