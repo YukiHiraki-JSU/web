@@ -536,6 +536,81 @@ A4 {
 	margin-bottom: 50px;
 }
 
+.name-eng {
+	color: #FFF;
+	background: #F2C200;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.post-eng {
+	color: #F2C200;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.story-eng {
+	color: #3f3f3f;
+	font-size: .9em;
+	font-weight: 300;
+	width: 100%;
+	padding: 0px 15px 0px 0px;
+	margin-bottom: 50px;
+}
+
+.name-emp {
+	color: #FFF;
+	background: #08D20D;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.post-emp {
+	color: #08D20D;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.story-emp {
+	color: #3f3f3f;
+	font-size: .9em;
+	font-weight: 300;
+	width: 100%;
+	padding: 0px 15px 0px 0px;
+	margin-bottom: 50px;
+}
+
+.name-env {
+	color: #FFF;
+	background: #5855C6;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.post-env {
+	color: #5855C6;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.story-env {
+	color: #3f3f3f;
+	font-size: .9em;
+	font-weight: 300;
+	width: 100%;
+	padding: 0px 15px 0px 0px;
+	margin-bottom: 50px;
+}
+
 .enedata img{
 	max-width: 100%;
 	height: auto;
