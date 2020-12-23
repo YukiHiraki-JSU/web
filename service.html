@@ -105,9 +105,7 @@
               <div class="space20"></div>
               <h7-1>Your AI powered energy operation platform. You can reduction your business operation cost and optimize your business judgement.
               </h7-1>
-              <div class="title" align="left">
-        	    <a href="https://yukihiraki-jsu.github.io/web/index.html#contact"><button class="view-service"><b>Contact</b></button></a>
-              </div>
+                <a class="view-service" href="https://yukihiraki-jsu.github.io/web/index.html#contact">Contact<br></a>
             </div>
         	<div class="col-md-6">
         		<div class="service-image"><img src="img/service_ai.png"></div>
@@ -181,7 +179,7 @@
     	</div>
     	<div class="row" id="service-details-2">
     	    <div class="col-md-6">
-        		<div class="service-image2"><img src="img/service-2.png"></div>
+        		<div class="service-image3"><img src="img/service-2.png"></div>
         	</div>
             <div class="col-md-6">
               <div class="space40"></div>
@@ -205,12 +203,12 @@
               </h7-1>
             </div>
         	<div class="col-md-6">
-        		<div class="service-image2"><img src="img/service-3.png"></div>
+        		<div class="service-image4"><img src="img/service-3.png"></div>
         	</div>
     	</div>
     	<div class="row" id="service-details-4">
     	    <div class="col-md-6">
-        		<div class="service-image2"><img src="img/service-4.png"></div>
+        		<div class="service-image5"><img src="img/service-4.png"></div>
         	</div>
             <div class="col-md-6">
               <div class="space40"></div>
@@ -282,10 +280,25 @@
        $(document).ready(function(){
 
         $(window).scroll(function(){
-              if ($(this).scrollTop() > 500) {
-                $('#main-navbar').fadeIn();
+              if ($(this).scrollTop() > 700) {
+                $('.service-image2').fadeIn();
               } else {
-                $('#main-navbar').fadeOut();
+                $('.service-image2').fadeOut();
+              }
+              if ($(this).scrollTop() > 1200) {
+                $('.service-image3').fadeIn();
+              } else {
+                $('.service-image3').fadeOut();
+              }
+              if ($(this).scrollTop() > 1800) {
+                $('.service-image4').fadeIn();
+              } else {
+                $('.service-image4').fadeOut();
+              }
+              if ($(this).scrollTop() > 2400) {
+                $('.service-image5').fadeIn();
+              } else {
+                $('.service-image5').fadeOut();
               }
             });
 

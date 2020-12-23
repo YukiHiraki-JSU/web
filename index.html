@@ -140,12 +140,9 @@
   <div class="space40"></div>
   
   <!-- Top main area End-->
-
   <div class="container" id="about">
-  
       <!--<p class="headingtitle">SDGsゴール7(エネルギー)とゴール13(気候変動)の社会問題を解決することを目指しています。</p>-->
-      <div class="row">
-
+      <div class="row2">
          <div class="col-sm-4">
             <img src="favicon/favicon-192x192.png" width="80" height="80">
             <h2>About Us</h2>
@@ -169,10 +166,10 @@
            <h3-1><br>独自の人工知能モデルやデータマイニングを用いた解析・予測をし、専門的なデータサイエンティストなしで、次世代メンテナンスの予知保全(Predictive maintenance)運用や最適な販売・マーケティング計画を実現させます。具体的には、基礎データの電力やPAYGO・CRMデータと、コントローラから取得できない50以上の環境変数やデータ（気象データ等）を独自のアルゴリズムを含めた様々なモデルや分析手法で計算し、
            パネルの最適な発電条件や販売計画、不必要な部品交換費用の削減・メンテナンス稼働の削減・機器停止回避による電力効率化などのO&M運用に対して高度な人工知能ソリューションを提供します。
            </h3-1>
-         </div>
+         </div>  
      </div>
   </div>
-  
+ 
    <div class="space20"></div>
 
 <!-- Stat Bar -->
@@ -327,9 +324,7 @@
       </div>
       <div class="row">
         <div class="space40"></div>
-        <div class="title" align="center">
-        	<a href="https://yukihiraki-jsu.github.io/web/service.html"><button class="view-product"><b>More Details</b></button></a>
-        </div>
+        	<a class="view-product" href="https://yukihiraki-jsu.github.io/web/service.html">More Details<br></a>
       </div>
     </div>
     
@@ -361,25 +356,19 @@
         <div class="col-md-6 wow fadeInUp">
            <div class="col-md-1"></div>
            <div class="col-md-9">
-             <h2><font color="#000000">Our latest news information!</font></h2>
-             <div class="space40"></div>
+             <h2><font color="#666666">Latest News</font></h2>
              <div class="title" align="center">
-               <a href="https://yukihiraki-jsu.github.io/news/"><img src="img/news.png" width="80" height="80"></a>
-               <a href="https://yukihiraki-jsu.github.io/news/" class="readall-btn">Read more<i class="fa fa-angle-double-right fa-lg"></i></a>
+               <a href="https://yukihiraki-jsu.github.io/news/" class="news-btn"><img src="img/news.png" width="80" height="80"></a>
              </div>
            </div>
-          
-           <div class="space40"></div>
         </div>
 
         <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
            <div class="col-md-1"></div>
            <div class="col-md-9">
-             <h2><font color="#000000">The industry information!</font></h2>
-             <div class="space40"></div>
+             <h2><font color="#666666">Industry Blog</font></h2>
              <div class="title" align="center">
-               <a href="https://yukihiraki-jsu.github.io/news/"><img src="img/blog.png" width="80" height="80"></a>
-               <a href="https://yukihiraki-jsu.github.io/news/" class="readall-btn">Read more<i class="fa fa-angle-double-right fa-lg"></i></a>
+               <a href="https://yukihiraki-jsu.github.io/news/" class="news-btn"><img src="img/blog.png" width="80" height="80"></a>
              </div>
            </div>
         </div>
@@ -387,7 +376,7 @@
    </div>
 </div>
 
-   <div class="space40"></div>
+   <div class="space60"></div>
           
       <div class="container" id="contact">
         <div class="title" align="center">
@@ -456,10 +445,15 @@
        $(document).ready(function(){
 
         $(window).scroll(function(){
-              if ($(this).scrollTop() > 500) {
-                $('#main-navbar').fadeIn();
+              if ($(this).scrollTop() > 1200) {
+                $('.enedata').fadeIn();
               } else {
-                $('#main-navbar').fadeOut();
+                $('.enedata').fadeOut();
+              }
+              if ($(this).scrollTop() > 300) {
+                $('.row2').fadeIn();
+              } else {
+                $('.row2').fadeOut();
               }
             });
 
