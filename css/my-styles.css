@@ -177,11 +177,6 @@ A4 {
 	font-size: 0.9em;
 }
 
-.row2 > p:nth-child(3) {
-	font-size: 0.9em;
-	animation: ani2 3s ease;
-}
-
 .container {
 	max-width: 1100px;
 	font-family: 'Vollkorn', serif;
@@ -327,7 +322,7 @@ A4 {
     transition: 0.2s ease-out;
 }
 
-.col-custom-five {
+.col-custom-five{
     position: relative;
     float: left;
     width: 20%;
@@ -499,7 +494,7 @@ A4 {
 }
 
 .statbar {
-	background: radial-gradient(#FFFFFF, #f2c200); /* #F4F4F4 */
+	background: radial-gradient(#E8E8E8, #E8E8E8); /* #F4F4F4 (#FFFFFF, #f2c200)*/
 	height: auto;
 	width: 100%;
 	color: #fff;
@@ -643,7 +638,7 @@ A4 {
 	height: auto;
 	display: block;
 	position: relative;
-	animation: ani2 1s ease;
+	animation: ani2 2s ease;
 }
 
 .more-info {
@@ -1005,7 +1000,7 @@ height: 100%;
         
     #service-details-1 {
 		padding: 70px 30px 0px 30px;
-		background: #F8F8F8 url("") no-repeat center;
+		background: #E8E8E8 url("") no-repeat center;
 		background-size: cover;
 		height: 600px;
         width: 101.25%;
@@ -1029,7 +1024,7 @@ height: 100%;
     
     #service-details-3 {
 		padding: 70px 30px 0px 30px;
-		background: #F8F8F8 url("") no-repeat center;
+		background: #E8E8E8 url("") no-repeat center;
 		background-size: cover;
 		height: 600px;
         width: 101.25%;

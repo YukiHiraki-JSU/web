@@ -142,7 +142,7 @@
   <!-- Top main area End-->
   <div class="container" id="about">
       <!--<p class="headingtitle">SDGsゴール7(エネルギー)とゴール13(気候変動)の社会問題を解決することを目指しています。</p>-->
-      <div class="row2">
+      <div class="row">
          <div class="col-sm-4">
             <img src="favicon/favicon-192x192.png" width="80" height="80">
             <h2>About Us</h2>
@@ -450,10 +450,20 @@
               } else {
                 $('.enedata').fadeOut();
               }
-              if ($(this).scrollTop() > 300) {
-                $('.row2').fadeIn();
+              if ($(this).scrollTop() > 200) {
+                $('.row').fadeIn();
               } else {
-                $('.row2').fadeOut();
+                $('.row').fadeOut();
+              }
+              if ($(this).scrollTop() > 600) {
+                $('.statbar').fadeIn();
+              } else {
+                $('.statbar').fadeOut();
+              }
+               if ($(this).scrollTop() > 1400) {
+                $('.col-md-9').fadeIn();
+              } else {
+                $('.col-md-9').fadeOut();
               }
             });
 
