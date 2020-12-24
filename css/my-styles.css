@@ -1322,13 +1322,13 @@ input[type=checkbox].blue:checked,input[type=checkbox].blue:indeterminate,input[
 ================================  */
 
 .news-btn:hover {
-    background-color: #F6F6F6;
+    background-color: #f25253;
 }
 
 .news-btn {
 	font-size: 17px;
     display: block;
-    background-color: transparent; #f25253
+    background-color: transparent; /* #f25253 */
     color: #fff!important;
     padding: 15px 15px;
     border-radius: 5px;
