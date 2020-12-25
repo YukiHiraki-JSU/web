@@ -1237,11 +1237,11 @@ input[type=checkbox].blue:checked,input[type=checkbox].blue:indeterminate,input[
 }
 
 .navbar-nav > li > a:hover {
-	color: #FFF !important;
+	color: #FCC700 !important;
 }
 
 .navbar-default .navbar-nav > .active > a {
-	color: #FFF;
+	color: #FCC700;
 	background: none;
 }
 
