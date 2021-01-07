@@ -380,18 +380,6 @@ A4 {
 	margin-bottom: 20px;
 }
 
-.milestone-counter {
-	font-family: 'Raleway';
-}
-
-.milestone-details {
-	font-size: 1.3em;
-	font-weight: 300;
-	margin-bottom: 40px;
-	color: #000000;
-}
-
-
 .headingtitle {
 	text-align: center;
 	font-size: 1em;
@@ -421,6 +409,7 @@ A4 {
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	border-radius: 150px;
 }
 
 .heading > h1 {
@@ -494,13 +483,14 @@ A4 {
 }
 
 .statbar {
-	background: radial-gradient(#E8E8E8, #E8E8E8); /* #F4F4F4 (#FFFFFF, #f2c200)*/
+	background: radial-gradient(#03003F, #03003F); /* #000000 #E8E8E8 #F4F4F4 (#FFFFFF, #f2c200)*/
 	height: auto;
 	width: 100%;
 	color: #fff;
 	padding-top: 50px;
 	padding-bottom: 20px;
 	text-align: center;
+	border-radius: 150px;
 }
 
 .highlight {
@@ -522,12 +512,26 @@ A4 {
 
 .milestone-counter {
 	font-family: 'Raleway';
+	color: #fff;
+}
+
+.milestone-counter2 {
+	font-family: 'Raleway';
+	color: #fff;
 }
 
 .milestone-details {
 	font-size: 1.3em;
 	font-weight: 300;
 	margin-bottom: 40px;
+	color: #000;
+}
+
+.milestone-details2 {
+	font-size: 1.3em;
+	font-weight: 300;
+	margin-bottom: 40px;
+	color: #fff;
 }
 
 .center {
