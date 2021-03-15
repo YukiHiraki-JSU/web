@@ -12,6 +12,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,300,200">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn">
     <link href="css/my-styles.css" rel="stylesheet">
 
     <script src="js/jquery-1.11.1.min.js"></script>
@@ -25,19 +28,19 @@
     <!-- Favicon -->
     <link rel="icon" href="favicon/favicon.ico">
     <link rel="icon" type="image/png" href="favicon/favicon-16x16" sizes="16x16" />
-	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
-	<link rel="icon" type="image/png" href="favicon/favicon-192x192.png" sizes="192x192" />
-	<!-- Smartphone favicon -->
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-57x57.png" sizes="57x57">
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-60x60.png" sizes="60x60">
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-72x72.png" sizes="72x72">
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-76x76.png" sizes="76x76">
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-114x114.png" sizes="114x114">
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-120x120.png" sizes="120x120">
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-144x144.png" sizes="144x144">
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-152x152.png" sizes="152x152">
-	<link rel="apple-touch-icon" href="favicon/apple-touch-icon-180x180.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon/favicon-192x192.png" sizes="192x192" />
+    <!-- Smartphone favicon -->
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-57x57.png" sizes="57x57">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-60x60.png" sizes="60x60">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-72x72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-76x76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-114x114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-120x120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-144x144.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-152x152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-180x180.png" sizes="180x180">
   </head>
   <body>
 
@@ -45,29 +48,47 @@
     <div class="container">
       <!-- Logo and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="mlogo" href="index.html"><img src="img/logo.png"></a>
+         <a class="mlogo" href="https://yukihiraki-jsu.github.io/web/index.html"><img src="img/logo.png" width="290" height="50"></a>
       </div>
+      
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html">Home</a></li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#about">How it works</a></li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#product">Product</a></li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#news">News</a></li>
+          <li class="active"><a href="https://yukihiraki-jsu.github.io/web/index.html">Home</a></li>
+          <!-- <li><a href="#about">Why EnerScale</a></li> -->
           <li class="dropdown link2">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Company<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <!-- <li class="link2a"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/index.html#product">Overview</a></li> -->
+              <li class="link2b"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/service.html">EnerScale Platform</a></li>
+              <li class="link2c"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/price.html">Pricing</a></li>
+            </ul>
+          </li>
+          <li class="dropdown link2">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="link2a"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/datapartner.html">Data Partners</a></li>
+              <li class="link2b"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/agencies.html">Agencies</a></li>
+              <li class="link2c"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/manufacturer.html">Manufacturer</a></li>
+            </ul>
+          </li>
+          <li class="dropdown link2">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li class="link2a"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/company.html">Our Mission</a></li>
               <li class="link2b"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/company.html#leadership">Our Team</a></li>
+              <li class="link2c"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/news/">Latest News</a></li>
+              <li class="link2d"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/industry-blog/">Industry Blog</a></li>
+              <li class="link2e"><a data-toggle="collapse" data-target=".navbar-collapse" href="https://yukihiraki-jsu.github.io/web/index.html#contact">Contact Us</a></li>
             </ul>
           </li>
-          <li><a href="https://yukihiraki-jsu.github.io/web/index.html#contact">Contact</a></li>
+          <!-- Login button  <a href="#"><button class="view-login"><img src="img/key.png" class="key">Login</button></a> -->
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
@@ -106,12 +127,43 @@
     </div>
   </div>
 
+<!-- Footer Section -->
+<footer>
+    <div class="footer-wrap">
+        <div class="menu-left">
+            <h3>Product</h3>
+            <ul class="footer-left"><br>
+                <li><a href="#">Why EnerScale</a></li>
+                <li><a href="#">EnerScale Platform</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+        <div class="menu-center">
+            <h3>Partners</h3>
+            <ul class="footer-center"><br>
+                <li><a href="#">Data Partners</a></li>
+                <li><a href="#">Agencies</a></li>
+                <li><a href="#">Manufacturer</a></li>
+            </ul>
+        </div>
+        <div class="menu-right">
+            <h3>About Us</h3>
+            <ul class="footer-right"><br>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Latest News</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <p class="lastline">&copy;2021 EnerScale, All Rights Reserved. &emsp; <a href="privacy.html">Privacy Policy</a> &emsp; <a href="termsofuse.html">Terms of Use</a></p><br>
+        <p class="lastline">Icon made by <a href="https://www.freepik.com/">Freepik</a> from www.flaticon.com</p>
+    </div>
+</footer>
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
 </body>
- <hr>
-        <p class="lastline">&copy;2020 EnerScale, All Rights Reserved.   <a href="index.html">Back to home</a>.
 </html>

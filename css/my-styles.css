@@ -563,7 +563,7 @@ A4 {
 
 .name {
 	color: #3f3f3f;
-	font-size: 1em;
+	font-size: 1.2em;
 	font-weight: 600;
 	margin-top: 20px;
 	font-family: 'Noto Sans TC', sans-serif;
@@ -585,6 +585,14 @@ A4 {
 	margin-bottom: 50px;
 	font-family: 'Noto Sans TC', sans-serif;
 }
+
+.mt {
+    width: 100%;
+	}
+	#mt-1 {
+        animation: ani2 3s ease;
+    }
+
 
 .name-eng {
 	color: #FFF;
@@ -660,6 +668,37 @@ A4 {
 	padding: 0px 15px 0px 0px;
 	margin-bottom: 50px;
 }
+
+.enedata {
+    width: 100%;
+	}
+
+	#enedata-1 {
+        padding: 0px 15px 0px 15px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        animation: ani2 3s ease;
+    }
+        
+    #enedata-2 {
+		padding: 0px 15px 0px 15px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        animation: ani2 6s ease;
+    }
+    
+    #enedata-3 {
+		padding: 0px 15px 0px 15px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        animation: ani2 9s ease;
+    }
 
 .enedata img{
 	max-width: 100%;
@@ -1135,6 +1174,54 @@ height: 100%;
 	text-align: center;
 }
 
+.overview {
+		font-size: 1.5em;
+        width: 100%;
+	}
+
+	#overview-1 {
+        padding: 0px 15px 0px 15px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; 
+        animation: ani2 3s ease;
+    }
+        
+    #overview-2 {
+		padding: 0px 15px 0px 15px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        animation: ani2 6s ease;
+    }
+    
+    #overview-3 {
+		padding: 0px 15px 0px 15px;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        animation: ani2 9s ease;
+    }
+    
+.eee {
+        width: 100%;
+	}
+
+	#eee-1 {
+        animation: ani2 3s ease;
+    }
+        
+    #eee-2 {
+        animation: ani2 6s ease;
+    }
+    
+    #eee-3 {
+        animation: ani2 9s ease;
+    }
+
 .box30 {
     margin: 2em 0;
     background: radial-gradient(#FFFFFF, #D7CFCF); /* #f1f1f1 */
@@ -1594,7 +1681,8 @@ input[type=checkbox].blue:checked,input[type=checkbox].blue:indeterminate,input[
 	position: relative;
 	margin-top: auto;
 }
-
+    
+    
 .footer-wrap .menu-left, .menu-center, .menu-right {
         display: flex;
         flex-direction: column;
